@@ -27,12 +27,20 @@ def binarySearch(x, y, min, max): #We want middle such that b = x ^ (1/y) or x =
 	if( dif_power < eps ):
 		return binarySearch(x, y, min, middle)
 
-
-
 def rad(x, y):
 	return binarySearch(x, y, 0, x)
 
-print(rad(9, 2))
-print(rad(49, 2))
-print(rad(27, 3))
-print(rad(60, 2))
+
+
+n1 = int(input())
+n2 = int(input())
+# Doing all the print
+print('#####################################################')
+print('EXPONENTIAL AND RADICAL\n')
+print('The numbers are:')
+print('n1: ', n1)
+print('n2: ', n2)
+print()
+print('Exponential: ', pow(n1,n2))
+print('Radical: ', rad(n1,n2))
+print('#####################################################')
