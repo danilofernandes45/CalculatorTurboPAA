@@ -1,20 +1,22 @@
-# CalculatorTurboPAA
+# Projeto avaliativo da disciplina Projeto e Análise de Algoritmos 2018.2: uma calculadora desenvolvida utilizando Programação Dinâmica para tornar suas operações mais rápidas
 
-Para executar basta dar o comando ``` sh app.sh ```
+Para realizar as operações, execute ``` sh app.sh ```
 
-- bn_operatosINPUT corresponde as numeros desejados para realizar a Soma, Multiplicação e Divisão. Esse arquivo está no seguinte formato:
+Descrição das entradas:
+
+- bn_operatosINPUT: arquivo de entrada que contém os numeros desejados para realizar a Soma, Multiplicação e Divisão. Este está no seguinte formato:
 
 	- 99999999 ---> Número 1
 	
 	- 99999999999 ---> Número 2
 
-- fast_rad_expINPUT corresponde aos numeros desejados para realizar a exponenciação e radiciação. Esse arquivo está no seguinte formato:
+- fast_rad_expINPUT: arquivo de entrada que contém os numeros desejados para realizar a exponenciação e radiciação. Este está no seguinte formato:
 
 	- 227 ---> Base
 	
 	- 4 ---> Expoente/Raiz-4
 
-- sequence_matrices_productINPUT contém as matrizes desejadas para fazer a multiplicação. Esse arquivo está no seguinte formato:
+- sequence_matrices_productINPUT: arquivo de entrada que contém as matrizes desejadas para executar a multiplicação. Este está no seguinte formato:
 
 	- 3 ---> Quantidade de matrizes
 	
